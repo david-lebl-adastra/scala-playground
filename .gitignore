@@ -1,5 +1,15 @@
 *.class
 *.log
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+.DS_STORE
+target/
+project/project/
+project/target/
+project/metals.sbt
+logs/
+.bsp/
+.metals/
+.vscode/
+.bloop/
+postgres-data/
+sbt-launch.jar
+.env
