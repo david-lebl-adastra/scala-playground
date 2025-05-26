@@ -26,6 +26,7 @@ ThisBuild / name         := "scala-playground"
 
 lazy val root = (project in file("."))
   .settings(
+    name                    := "scala-playground",
     libraryDependencies ++= Seq(
       "io.getquill"   %% "quill-jdbc-zio"             % quillVersion,
       "org.postgresql" % "postgresql"                 % postgresqlVersion,
